@@ -1,0 +1,67 @@
+.header { 
+    background-color: rgba(0, 17, 255, 0.747);
+    overflow: hidden;
+}
+.square {
+    margin:0%;
+    background-color: rgb(78, 80, 219);
+    border-color: black;
+    border-style: ridge;
+    width: 1cm;
+    height: 1cm;
+    text-align: center;
+    line-height: 200px;
+}
+body { 
+    margin: 0%; /* Будет ли рамка и углубленная внутрь или нет */
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(31, 30, 30);
+    
+}
+.buttons { display: inline;
+    border-style: none;
+    text-align: right;
+
+}
+.buttons a { 
+    font-size: 28px;
+    padding: 1cm; /* Размер между кнопками */
+    color: aliceblue;
+    text-decoration: none; /* Подчёркивание текста */
+}
+.buttons a:hover {
+    background-color: rgba(243, 244, 250, 0.747);
+    color: rgb(22, 25, 27);
+}
+.title { display: inline;
+    color: aliceblue;
+    font-size: 28px;
+    padding-inline-start: 20px;
+    padding-inline-end: 1300px;
+
+
+}
+.mainshit {
+
+    display:flex;
+}
+.mainshit h1 {
+
+
+
+    text-align: center;
+    color:aliceblue;
+     font-size: 90px;
+
+
+
+    padding-top: 9cm;
+
+}
+.based {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
