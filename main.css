@@ -17,123 +17,17 @@ header {
     background-color: #58a4b0;
     
 }
-footer {
-    height: 60px;
-    width: 100%;
-    background-color: #58a4b0;
-    position: fixed;
-    right: 0%;
-    bottom: 0%;
-}
-.buttons {
- display: table-cell;
- float: right;
-
-}
-.knestoresensei h1 {
+.knestoresensei h1 { /* Заголовок в header */
     font-size: 50px;
     color: #d8dbe2;
     margin:auto;
     text-align: center;
 }
-.github {
-    border-radius: 6px;
-    background-color: #daa49a;
-    
-    text-decoration: none;
-    
-}
-.steam {
-    border-radius: 6px;
-    background-color: #daa49a;
-    
-    text-decoration: none;
-}
-.sumka {
+.block1 { /* Первый блок, состоящий из несколько banner (1,2,3) */
     display: flex;
     margin-top: 15%;
     margin: auto;
     padding: 50px;
-}
-.baner3 {
-    border-radius: 20px;
-    margin-left: 10px;
-    height: 200px;
-    background-color: #d8dbe2;
-    flex: 1;
-    transition: .3s all ease;
-    padding-top: 60px;
-    font-size: 50px;
-    text-align: center;
-    background-image: url(images/telegramlogo.png);
-    background-size: cover;
-}
-.baner1:hover {
-    flex: 1.5;
-    background-color: #a9bcd0;
-}
-.baner2:hover {
-    flex: 1.5;
-    background-color: #a9bcd0;
-}
-.baner3:hover {
-    flex: 1.5;
-    background-color: #a9bcd0;
-}
-.anekititle {
-    font-style:italic;
-    font-size: large;
-    padding: 30px;
-    color: #58a4b0;
-}
-.gap {
-    color: #d8dbe2; /* Красный цвет символов */ 
-    font-size: 200%; /* Размер шрифта в процентах */ 
-    position: relative; /* Относительное позиционирование */ 
-    top: 5px; /* Сдвиг сверху */ 
-}
-.sumkan {
-    display: flex;
-}
-.anekdot {
-    margin-left: 20px;
-    margin-right: 20px;
-    color: #d8dbe2;
-    border-radius: 20px;
-    background-color: #58a4b0;
-    flex: 1;
-    text-align: left;
-    padding: 30px;
-    font-size: 25px;
-}
-.anekdot:hover {
-    background-color: #4a8a94;
-    transition: .3s all ease
-}
-
-footer a {
-    color: #d8dbe2;
-    font-weight:bolder;
-    font-size: 30px;
-    display: flex;
-    padding: 5px;
-    margin: auto;
-}
-.Copyright {
-    color: #d8dbe2;
-    font-weight:bolder;
-    font-size: 30px;
-    padding-top: 10px;
-    text-align: center;
-
-}
-.git {
-    text-decoration: none;
-    color: #d8dbe2;
-}
-.stea {
-    text-decoration: none;
-    color: #d8dbe2;
 }
 .baner1 {
     border-radius: 20px;
@@ -147,7 +41,14 @@ footer a {
     text-align: center;
     background-image: url(images/githublogo.png);
     background-size: cover;
-
+}
+.baner1:hover {
+    flex: 1.5;
+    background-color: #a9bcd0;
+}
+.github {
+    text-decoration: none;
+    color: #d8dbe2;
 }
 .baner2 {
     border-radius: 20px;
@@ -162,8 +63,77 @@ footer a {
     background-image: url(images/steamlogo.png);
     background-size: cover;
 }
-.tel {
+.baner2:hover {
+    flex: 1.5;
+    background-color: #a9bcd0;
+}
+.steam {
     text-decoration: none;
     color: #d8dbe2;
-
+}
+.baner3 {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: #d8dbe2;
+    flex: 1;
+    transition: .3s all ease;
+    padding-top: 60px;
+    font-size: 50px;
+    text-align: center;
+    background-image: url(images/telegramlogo.png);
+    background-size: cover;
+}
+.baner3:hover {
+    flex: 1.5;
+    background-color: #a9bcd0;
+}
+.telegram {
+    text-decoration: none;
+    color: #d8dbe2;
+}
+.title { /* Второй блок с заголовком */
+    font-style:italic;
+    font-size: large;
+    padding: 30px;
+    color: #58a4b0;
+}
+.block2 { /* Третий блок, но второй по значимости. Содержит поля с информацией, в данном случае анекдоты */
+    display: flex;
+}
+.gap { /* span для начала текста, позволяет выделить первую букву */
+    color: #d8dbe2; /* Цвет символов */ 
+    font-size: 200%; /* Размер шрифта */ 
+    position: relative; /* Относительное позиционирование */ 
+    top: 5px; /* Сдвиг сверху */ 
+}
+.text { /* Поля с текстом */
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #d8dbe2;
+    border-radius: 20px;
+    background-color: #58a4b0;
+    flex: 1;
+    text-align: left;
+    padding: 30px;
+    font-size: 25px;
+}
+.text:hover {
+    background-color: #4a8a94;
+    transition: .3s all ease
+}   
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #58a4b0;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+}
+.Copyright {
+    color: #d8dbe2;
+    font-weight:bolder;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
 }
